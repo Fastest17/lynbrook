@@ -709,3 +709,72 @@ footer .footer_social .wrapper .item_social i.fab, i.fas{
 	color: #fff;
 	margin-bottom: 20px;
 }
+
+
+
+
+/* media  */ 
+
+@media  screen and (max-width: 1130px){
+
+	body{
+		width: 100%;
+
+	}
+
+    main .wrapper{
+    	display: block;
+    	
+    }
+    section.content{
+    	width: 100%;
+    }
+    aside{
+    	width: 100%;
+    	display: flex;
+    	justify-content: center;
+    }
+
+    .sidebar .widget.widget_adds figure{
+    	display: flex;
+    	justify-content: center;
+    }
+
+    .list_posts .post{
+    	justify-content: center;
+    }
+
+    .sidebar .widget.widget_adds_2 figure{
+    	display: flex;
+    	justify-content: center;
+    }
+    .widget.widget_instagram .photo_gallery{
+    	justify-content: space-around;
+    }
+
+    .widget.widget_instagram .photo_gallery img{
+    	padding-left: 5px;
+    	padding-right: 5px;
+    }
+
+    footer .footer_social .wrapper{
+    	justify-content: space-between;
+    	flex-wrap: wrap;
+    }
+    footer .footer_social .wrapper .item_social{
+    	padding-right: 5px;
+    	padding-left: 5px;
+    }
+} 
+
+
+@media  screen and (max-width: 900px){
+	section.slider .homapage_slider .item-slide .mask h2.title{
+		font-size: 15px;
+		line-height: 15px;
+	}
+
+	footer .insta_feed{
+		display: none;
+	}
+}
